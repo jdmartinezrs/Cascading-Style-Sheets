@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Bungee+Spice&family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap');
+
+*{
+    margin: 20px;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+/* 1. Descendencia: todos los <p> dentro de un article */
+article p {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+    font-size: 90px;
+}
+
+
+/* 2. Hijo directo: solo los <p> hijos inmediatos de article */
+article > p {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 90px;
+}
+
+/* 3. Hermano adyacente: el <p> que sigue inmediatamente a un <h2> */
+h2 + p {
+  font-family: "Moo Lah Lah", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    
+}
+
+/* 4. Hermanos generales: todos los <p> que estén después de un <h2> */
+h2 ~ p {
+  font-family: "Barrio", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 90px;
+}
+
+.sub{
+    font-size: 50px;
+    font-family: 'Bungee Shade', cursive;
+}
