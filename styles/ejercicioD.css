@@ -1,0 +1,17 @@
+div>h1 {
+    text-decoration: underline;
+
+}
+
+div>p {
+    font-weight: bold;
+    color: blue;
+}
+
+div ~ section  {
+    font-style: italic;
+}
+
+section + p {
+    background-color: yellow;
+}

@@ -16,7 +16,7 @@ div>h1 {
 
 }
 
-h1 + p {
+h1 ~ p {
     font-size: 30px;
     font-family: "Pinyon Script", cursive;
     font-weight: 400;
@@ -24,7 +24,7 @@ h1 + p {
     color: darkred;
 }
 
-article ~ h1 {
+article + p {
     font-size: 30px;
     font-family: "Pinyon Script", cursive;
     font-weight: 400;
