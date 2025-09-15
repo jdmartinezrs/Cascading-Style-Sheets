@@ -30,14 +30,15 @@ section > p{
     }
 */
 
+li >p{
+   font-size: 50px
+    }
 
-
-ul > a {
-  background-color: yellow;
+ul > a {  
   font-family: "Bungee";
   text-decoration: none;
+  background-color: yellow;
 }
-
 p ~ ul {
     font-size: 30px;
 }

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+article>div {
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightblue;
+}
+
+div>h1 {
+    font-size: 40px;
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: darkblue;
+
+}
+
+h1 + p {
+    font-size: 30px;
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: darkred;
+}
+
+article ~ h1 {
+    font-size: 30px;
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: darkgreen;
+}
